@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --cor-1: #240349;
+    --cor-2: #f5deb3;
+    --cor-3: #140935;
+    --cor-4: #200d58;
+    
+}
+
+.bg {
+    background-image: url(../imagens/fundo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+/* CABEÇALHO */
+.cabecalho {
+    background-color: var(--cor-2);
+    display: flex;
+    padding-bottom: 10px;
+    padding-top: 10px;
+
+}
+
+.logo {
+    margin-left: 60px;
+    margin-top: 10px;
+    color: var(--cor-1);
+    font-family: 'Source Serif Pro', serif;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.253);
+    
+}
+
+
+nav {
+	position: absolute;
+	top: 30px;
+	right: 0;
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 10px;
+}
+
+nav a {
+	text-transform: uppercase;
+	color: var(--cor-3);
+	font-weight: bold;
+	font-size: 14px;
+	text-decoration: none;
+    margin-right: 50px;
+    font-family: 'Open Sans', sans-serif;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.103);
+
+}
+
+nav a:hover {
+	color: var(--cor-4);
+	text-decoration: underline;
+}
+
+/* CORPO DO SITE */
+.corpo {
+    display: flex;
+}
+
+.texto {
+    color: var(--cor-3);
+    font-weight: bolder;
+    font-size: 50px;
+    margin: 90px 0 0 90px;
+    display: flex;
+    font-family: 'Open Sans', sans-serif;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.199);
+
+}
+
+.descricao {
+    text-align: justify;
+    color: var(--cor-2);
+    margin: 70px 0 0 90px;
+    font-size: 17px;
+    font-weight: bold;
+    display: flex;
+    font-family: 'Open Sans', sans-serif;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.253);
+
+}
+
+.nokia {
+    width: 35%;
+    display: flex;    
+    margin: 80px 0 0 100px;
+    filter: drop-shadow(-2px 2px 10px rgb(0, 0, 0));
+}
+
+.botao {
+    background-color:var(--cor-2);
+    border: none;
+    color:black;
+    padding: 10px 10px 10px 10px;
+    margin: 50px 0 0 90px;
+    border-radius: 5px;
+    font-family: 'Open Sans', sans-serif;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.082);
+
+}
+
+.botao p {
+    font-weight: bold;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.048);
+}
+
+.botao:hover {
+    transition: 0.7s;
+    cursor: pointer;
+    background-color: var(--cor-4);
+    color: var(--cor-2);
+}
