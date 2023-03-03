@@ -8,7 +8,7 @@
 
 :root {
     --cor-1: #240349;
-    --cor-2: #f5deb3;
+    --cor-2: #fcf8f1;
     --cor-3: #140935;
     --cor-4: #200d58;
     
@@ -109,7 +109,7 @@ nav a:hover {
     background-color:var(--cor-2);
     border: none;
     color:black;
-    padding: 10px 10px 10px 10px;
+    padding: 15px 20px 15px 20px;
     margin: 50px 0 0 90px;
     border-radius: 5px;
     font-family: 'Open Sans', sans-serif;
